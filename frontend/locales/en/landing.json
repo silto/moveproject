@@ -1,0 +1,26 @@
+{
+  "catchPhrase": "Profiting from Bitcoin's volatility",
+  "whatIsMOVE": "What is MOVE ?",
+  "moveExplanation1": "MOVE contracts are futures that settle to the absolute change in price of Bitcoin over time.",
+  "moveExplanation2": "They are a simple way to gain exposure to Bitcoin volatility and diversifying portfolio returns.",
+  "knowMore": "I want to know more !",
+  "whatIsMOVEProject": "What is the MOVE Project ?",
+  "projectMoveExplanation1": "MOVE Project is a free aggregator allowing easy visualization and manipulation of historic MOVE data :",
+  "knowMoreProject": "Additional Informations",
+  "browseExpired": "Expired MOVE contracts charts",
+  "expirationsChart": "Expiration price history",
+  "IVChart": "Implied Volatility history",
+  "TradesChart": "Trades history",
+  "newsletterTitle": "On the MOVE: our free newsletter",
+  "newsletterExplanation": "Every Saturday, we share insights into Bitcoin volatility and MOVE contracts, using the metrics we have brought to life.",
+  "signup": "Sign Up",
+  "alwaysFree": "It's free and you can unsubscribe anytime.",
+  "agreeTerms": "I agree to the terms & conditions",
+  "terms": "(Click here to read them)",
+  "subscriptionSuccess": "Thanks for subscribing!",
+  "errors": {
+    "invalidEmail": "The email provided is invalid",
+    "mustAgreeTerms": "You must agree to the terms & conditions",
+    "errorMailProvider": "There was an error with the mail provider"
+  }
+}

@@ -1,0 +1,6 @@
+[ignore]
+.*/node_modules/dataloader.*\.flow
+.*node_modules/graphql/.*js.flow
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

@@ -1,0 +1,53 @@
+{
+
+  "nav": {
+    "charts": "MOVE Charts",
+    "analytics": "Data Analytics",
+    "automation": "Trade automation",
+    "backtest": "Backtesting"
+  },
+  "loading": "Loading",
+  "error": "error!",
+  "copyright": "2022 MOVE Project by ",
+  "days": {
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday"
+  },
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December"
+  },
+  "joinFTX": "Join FTX",
+  "subscribe": "Subscribe",
+  "emailAddress": "Email address",
+  "disclaimer": "Disclaimer",
+  "errors": {
+    "invalidInputs": {
+      "starttime": "Start time is after End ime",
+      "opencandle": "Opening time is out of bounds",
+      "positionsize": "Position size can't be negative",
+      "stoploss": "invalid stop loss",
+      "takeprofit": "invalid take profit",
+      "slippage": "invalid slippage",
+      "fee": "invalid fee"
+    },
+    "unknownError": "An unknown error happened",
+    "internalServerError": "An unknown error happened",
+    "dbError": "A database error happened"
+  }
+}

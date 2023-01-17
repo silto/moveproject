@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+/* @flow */
+
+const webpackDevServer = require("../webpack.server.js");
+
+// Get the PORT & HOST from the ENV
+const HOST = process.env.HOST || "localhost";
+const PORT = process.env.PORT || 7050;
+
+// Start the server
+webpackDevServer.listen(PORT, HOST, (err) => {
+  if (err) {
+    return console.error(err);
+  }
+
+  console.info(`Application running at http://${HOST}:${PORT}/`);
+  console.info(`or at http://${HOST}:${PORT}/webpack-dev-server/`);
+});

@@ -1,0 +1,34 @@
+{
+
+  "loading": "Chargement",
+  "error": "erreur!",
+  "logout": "Déconnexion",
+  "allrights": "Tous droits réservés.",
+  "confidentialityPolicy": "Politique de confidentialité",
+  "target": {
+    "title": "Et si on apprenait à se connaître ?",
+    "hook": "Prenez le temps de répondre à quelques questions !"
+  },
+  "back": "Retour",
+  "help": "Aide",
+  "backonsite": "Retour au site",
+  "next": "Suite",
+  "previous": "Précédent",
+  "submit": "Valider",
+  "endit": "Terminer",
+  "ddcCapitalized": "Don du Clic",
+  "ddc": "Don du Clic",
+  "generousConnect": "Generous Connect",
+  "home": "Accueil",
+  "copy": "Copier",
+  "association": "Association",
+  "associations": "Associations",
+  "campaignsCRM": "Campagnes CRM",
+  "campaignsFidRH": "Campagnes Fid/RH",
+  "announcer": "Annonceur",
+  "announcers": "Annonceurs",
+  "administration": "Administration",
+  "donation": "Don",
+  "donations": "Dons Fid/RH",
+  "gqlPlayground": "GraphQL Playground"
+}

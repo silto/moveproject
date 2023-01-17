@@ -1,0 +1,16 @@
+{
+  "title": "MOVE Project: Legal Disclaimer",
+  "p1": "This document contains very important information regarding your rights and obligations, as well as conditions, limitations and exclusions. Please read these terms of use carefully before accessing or using the software. By accepting these terms you agree and confirm that :",
+  "terms": {
+    "t1": "you have read, understood, and agreed to be bound by these Terms of Use",
+    "t2": "you assume all the obligations set forth herein",
+    "t3": "you are of sufficient legal age and capacity to use the Software",
+    "t4": "you are not under the control of jurisdiction that explicitly prohibits the use of similar software",
+    "t5": "you use the Software at your discretion and under your own responsibility"
+  },
+  "p2": "Please remember that past performance may not be indicative of future results. Historical performance results for different strategies/models make certain assumptions that may differ from real trading. Backtesting results are not a guarantee of future results. Using past data presents many difficulties and its effectiveness has significant limitations, including that prior patterns may not repeat themselves continuously or on any particular occasion. In addition, market participants using such devices can impact the market in a way that changes the effectiveness of such device.",
+  "p3": "NONE of the information, data or analysis provided constitutes financial advice, financial recommendation, trading advice, trading recommendation or any other sort of advice/recommendation. By using this website and using any of the information, data or analysis provided, you agree that you are doing so at your own risk and “MOVE Project” is not to be held accountable for any result under any circumstance.",
+  "p4": "“MOVE Project” provides the data as well as the software. “MOVE Project” does not provide financial, investment, legal, tax or any other professional advice. “MOVE Project” is not a broker, financial advisor, investment advisor, portfolio manager or tax advisor. You acknowledge and agree that “MOVE Project” is not responsible for your use of any information that you obtain on the software. Your decisions are fully yours, and any interpretations you make are yours and your full responsibility. You expressly agree that your use of the service is at your sole risk.",
+  "p5": "All information published on this website is obtained from sources believed to be reliable. Any errors or omissions are possible due to human/mechanical error, there are no warranties for the information provided.",
+  "p6": "“MOVE Project” reserves the right, at its own discretion and with no obligation, to improve the data as it sees fit as well as change, modify, add or remove portions of these terms at any time. Please check this page regularly for any updates to our policies. Your continued use of the site following any changes made mean that you agree to the changes."
+}

@@ -1,0 +1,25 @@
+<% const config = htmlWebpackPlugin.options.config %>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= config.APP_NAME %></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <script type="text/javascript">
+  // Browser-update script
+    var $buoop = {vs:{i:10,f:-6,o:-6,s:8,c:-6},api:4};
+    function $buo_f(){
+      var e = document.createElement("script");
+      e.src = "//browser-update.org/update.min.js";
+      document.body.appendChild(e);
+    };
+    try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+    catch(e){window.attachEvent("onload", $buo_f)}
+  </script>
+  <%- include static/fragments/head %>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="app-root"></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "move-project-api",
+  "version": "1.0.0",
+  "author": "silto",
+  "description": "MOVE Project API server",
+  "engines": {
+    "node": "12.22.x",
+    "npm": "6.14.x"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development nodemon bin/server",
+    "startjob": "NODE_ENV=development nodemon bin/jobs",
+    "prodstart": "NODE_ENV=production ./bin/server"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.17.0",
+    "bull": "^3.18.0",
+    "connect-redis": "^3.4.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.14.0",
+    "dataloader": "^1.4.0",
+    "dompurify": "^1.0.11",
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "graphql": "^14.3.0",
+    "jsdom": "^15.1.1",
+    "mime": "^2.4.4",
+    "moment": "^2.24.0",
+    "mongoose": "6.1.x",
+    "mongoose-shortid-nodeps": "^0.6.5",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.5.0",
+    "nodemailer": "^6.2.1",
+    "normalize-url": "^4.3.0",
+    "p-queue": "^6.6.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "rate-limiter-flexible": "^2.2.1",
+    "redis": "^3.0.2",
+    "serve-static": "^1.13.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "private": true
+}

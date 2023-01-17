@@ -1,0 +1,110 @@
+{
+  "charts": {
+    "title": "Chart a MOVE Contract"
+  },
+  "fields": {
+    "selectMove": "Select a MOVE Contract",
+    "contractPlaceholder": "BTC-MOVE-???",
+    "normalize": "Normalize to a specific 1h candle open",
+    "normalizationPlaceholder": "Choose a candle...",
+    "noNorm": "No normalization",
+    "toggleMinMax": "Add minimum and maximum prices",
+    "toggleMinMaxAfterNormCandle": "Get min/max after the normalization candle's open only",
+    "toggleWeekly": "Per day of the week",
+    "toggleMonthly": "Per Month",
+    "ivAlignByDate": "Align by date",
+    "ivAlignByContract": "Align by contract",
+    "toggleWithBTC": "Show Bitcoin price history",
+    "startTime": "Start date",
+    "endTime": "End date",
+    "positionSize": "Position Size* (% of account)",
+    "takeProfit": "Take Profit (%)",
+    "stopLoss": "Stop Loss (%)",
+    "makerFee": "Maker Fee (%)",
+    "takerFee": "Taker Fee (%)",
+    "slippage": "Slippage (%)",
+    "toggleAdditionalSettings": "Advanced settings",
+    "side": {
+      "label": "Position side",
+      "long": "Long",
+      "short": "Short"
+    },
+    "openCandle": "Time of position opening",
+    "contractStart": "at the beginning of the contract"
+  },
+  "analytics": {
+    "expirationHistory": {
+      "title": "Expiration History",
+      "normalizeExplanation1": "Normalizing means dividing the expiration price by the chosen candle's open price.\n\nThis tells if the contract expired above or below the price at the chosen candle's open.\n\nExample: If you chose to normalize to the 00:00 - MOVE candle :\nif MOVE price at 00:00UTC = $200 & expiration = 100$, normalized expiration = 0.5",
+      "try": "Click here to try normalization",
+      "minmaxExplanation": "You can choose to display the maximum and minimum prices reached by the contracts during the time they were traded.",
+      "minmaxAfterNormExplanation": "Showing only the minimum and maximum after the normalization candle helps you determine the maximum win/loss of a trade entered at the normalization candle's open.\n\nIt can also tell you if a stop loss/take profit would have been hit."
+    },
+    "expirationAverages": {
+      "title": "Expiration Averages",
+      "chartTitleDaily": "Expiration average per day of the week",
+      "chartTitleMonthly": "Expiration average per month"
+    },
+    "expirationDistribution": {
+      "title": "Expiration Distribution by Price",
+      "chartTitle": "Expiration Distribution"
+    },
+    "ivHistory": {
+      "title": "Implied Volatility History",
+      "whatIsIV": "What is Implied Volatility ?",
+      "explanation1": "Implied volatility (IV) is the market's forecast of a likely movement in Bitcoin's price.\nImplied volatility is expressed as a percentage of the price, indicating a one standard deviation move over the course of a year.",
+      "explanation2": "ex: BTC = $10000 & IV = 50% means the marketplace thinks there’s a 68% chance at the end of one year that BTC will wind up somewhere between $5000 and $15000, and a 32% chance it ends up outside of this range.",
+      "alignmentExplanation": "Since IV Future is determined 24 hours before IV Open, you can choose to display it the previous day (align by date) or on the day of the contract, at the same time as IV Open (align by contract).",
+      "explanationIVFuture": "IV Future = IV when MOVE starts trading as a future",
+      "explanationIVOpen": "IV Open = IV when the contract opens (day of strike price determination)"
+    },
+    "trades": {
+      "title": "Trades on a MOVE contract",
+      "tradesSummary": "Trades Summary :",
+      "buys": "Buy Activity: <b>{{buyCount}}</b> trade, <b>{{buy}}</b> total volume",
+      "buys_plural": "Buy Activity: <b>{{buyCount}}</b> trades, <b>{{buy}}</b> total volume",
+      "liqBuys": "Buy Liquidation: <b>{{liqBuyCount}}</b> trade, <b>{{liqBuy}}</b> total volume",
+      "liqBuys_plural": "Buy Liquidations: <b>{{liqBuyCount}}</b> trades, <b>{{liqBuy}}</b> total volume",
+      "sells": "Sell Activity: <b>{{sellCount}}</b> trade, <b>{{sell}}</b> total volume",
+      "sells_plural": "Sell Activity: <b>{{sellCount}}</b> trades, <b>{{sell}}</b> total volume",
+      "liqSells": "Sell Liquidation: <b>{{liqSellCount}}</b> trade, <b>{{liqSell}}</b> total volume",
+      "liqSells_plural": "Sell Liquidations: <b>{{liqSellCount}}</b> trades, <b>{{liqSell}}</b> total volume"
+    }
+  },
+  "backtest": {
+    "title": "Backtesting suite",
+    "explanation1": "You can use this tool to test systematic Long or Short strategies on daily MOVE contracts.",
+    "explanation2": "Your backtest will be added to the queue, and some backtests running on months of data can take a bit of time to complete.\nThe result will be displayed as soon as it's available. You can continue browsing the MOVE Project and come back later.",
+    "startBacktest": "Start the backtest",
+    "cancelBacktest": "Cancel the backtest",
+    "equityChartTitle": "Equity Curve",
+    "equityChartLegend": "Equity ($)",
+    "resultsSummary": "Backtest Results",
+    "startTimeTooltip": "Date of the first contract to backtest (included).\nIf not specified, this will be the first MOVE contract to be issued (25th of September 2019).",
+    "endTimeTooltip": "Date of the last contract to backtest (excluded).\nIf not specified, the backtest will run to the last available expired contract.",
+    "takeProfitTooltip": "If specified, distance of the Take Profit from opening price. Assumed to be a limit order for fees and slippage calculations.\n\nExample:\nTP = 30% on a Long means Take profit on a position opened at 100$ will be at 130$.\n\nIf not specified, the position is held to expiration or until stopped/liquidated.",
+    "stopLossTooltip": "If specified, distance of the Stop Loss from opening price.\n\nExample:\nSL = 30% on a Long means Stop Loss on a position opened at 100$ will be at 70$.\n\nIf not specified or too big, the position can be liquidated if Maintenance Margin is reached, and the account balance drop to 0$.",
+    "makerFeeTooltip": "Maker fee you pay on FTX. You can get this information on the Settings page.\n\nIf not specified, 0% fee is used in the calculations.",
+    "takerFeeTooltip": "Taker fee you pay on FTX. You can get this information on the Settings page.\n\nIf not specified, 0% fee is used in the calculations.",
+    "openCandleTooltip": "The time of the contract where the position will be opened. The position is opened at the open of the specified candle.\n\nOpening order is assumed to be a market order.\n\nIf not specified, the position is opened at the beginning of the contract (Open as Future).",
+    "slippageTooltip": "The slippage that will be applied to stop market orders. Take profits are assumed to be limit orders, and opening market orders are assumed to be enetered on sufficient liquidity to have negligible slippage.",
+    "daysOfWeekTraded": "Days of the week traded",
+    "daysOfWeekExplanation": "Only contracts that open as MOVE contract on days that are checked will be traded.",
+    "status": {
+      "inqueue": "Your backtest is in the queue",
+      "running": "Your backtest is running, this should take a couple of seconds",
+      "error": "There was an error running your backtest",
+      "canceled": "Your backtest was canceled"
+    },
+    "results": {
+      "numberOfTrades": "<b>{{trades}}</b> trades, <b>{{wins}}</b> wins, <b>{{losses}}</b> losses. Strike rate: <b>{{strikeRate}}%</b>",
+      "pnl": "Start Account: <b>{{startAccount}}$</b>, End Account: <b>{{endAccount}}$</b>, Min: <b>{{minEquity}}$</b>, Max: <b>{{maxEquity}}$</b>, Max drawdown: <b>{{maxDrawDownPercent}}%</b>, Final P&L: <b>{{pnlNotional}}$</b> (<b>{{pnlPercent}}%</b>)",
+      "pnlLiquidated": "Start Account: <b>{{startAccount}}$</b>, End Account: <b>{{endAccount}}$</b>, Max: <b>{{maxEquity}}$</b>, final P&L: <b>{{pnlNotional}}$</b> (<b>{{pnlPercent}}%</b>) <u><b>Account liquidated!</b></u>"
+    }
+  },
+  "nav": {
+    "expirations": "Expirations",
+    "IV": "IV",
+    "trades": "Trades"
+  }
+}

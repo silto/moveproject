@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+"use strict";
+
+
+const config = require("../config");
+const serverInit = require("../server.js");
+
+serverInit()
+.then(server => server.listen({ port: config.listen }, () =>
+  console.info(`🚀 Server ready at http://localhost:${config.listen}${config.graphqlPath}`)
+));

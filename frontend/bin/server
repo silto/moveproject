@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+/* @flow */
+
+const createServer = require("../server");
+
+// Get the PORT & HOST from the ENV
+const HOST = process.env.HOST || "localhost";
+const PORT = process.env.PORT || 7050;
+
+// Listen
+createServer().listen(PORT, (err) => {
+  if (err) {
+    return console.error(err);
+  }
+
+  console.info(`Application running at http://${HOST}:${PORT}/`);
+});

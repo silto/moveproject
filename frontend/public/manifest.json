@@ -1,0 +1,15 @@
+{
+  "short_name": "MOVEProject",
+  "name": "MOVE Project",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#20232a",
+  "background_color": "#eef1f5"
+}
