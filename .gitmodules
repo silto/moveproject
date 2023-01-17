@@ -1,8 +1,8 @@
-[submodule "src/tradingview"]
+[submodule "frontend/src/tradingview"]
 	path = frontend/src/tradingview
 	url = git@github.com:tradingview/charting_library.git
 	branch = master
-[submodule "src/shared"]
+[submodule "backend/src/shared"]
 	path = backend/src/shared
 	url = git@github.com:silto/move-project-db-models.git
 	branch = master
